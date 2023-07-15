@@ -17,7 +17,7 @@ return [
                 'text' => 'If you\'re a senior developer, Laravel gives you robust tools for dependency injection, unit testing, queues, real-time events, and more. Laravel is fine-tuned for building professional web applications and ready to handle enterprise work loads.',
             ],
         ],
-    ];
+    ],
 
     'contentSca' => [
         'title' => 'A Scalable Framework',
@@ -30,7 +30,7 @@ return [
                 'text' => 'Need extreme scaling? Platforms like Laravel Vapor allow you to run your Laravel application at nearly limitless scale on AWS\'s latest serverless technology.',
             ],
         ],
-    ];
+    ],
 
     'button' => [
         'url' => '#',
