@@ -14,8 +14,8 @@
             <br>
             <a href="{{ __('buttons.inner_button.url') }}" class="inner-button" target="{{ __('buttons.inner_button.target') }}">{{ __('buttons.inner_button.text') }}</a>
         </div>
-    </div>
-
-
+    </div> 
 
 @endsection
+
+<!--  -->
