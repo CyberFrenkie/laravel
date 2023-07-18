@@ -1,7 +1,7 @@
 <?php
 return[
     'content1' =>[
-        'title' =>'A Progressive Framework',
+        'title' =>'A <span class="text-primary">P</span><span class="text-danger">r</span>ogressive Framework',
         'paragraphs' =>[
                 [
                     'subtitle' =>'We like to call Laravel a "progressive" framework. By that, we mean that Laravel grows with you. If you\'re just taking your first steps into web development, Laravel\'s vast library of documentation, guides, and video tutorials will help you learn the ropes without becoming overwhelmed.',
@@ -20,7 +20,7 @@ return[
                 ]   
                 ,
                 [
-                    'subtitle' =>'Need extreme scaling? Platforms like Laravel Vapor allow you to run your Laravel application at nearly limitless scale on AWS\'s latest serverless technology.',
+                                        'subtitle' =>'<span class="fw-bold text-dark">Need extreme scaling?</span> Platforms like Laravel Vapor allow you to run your Laravel application at nearly limitless scale on AWS\'s latest serverless technology<span class="text-warning">.</span>',
                 ],
             ],
         ], 
