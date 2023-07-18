@@ -2,19 +2,20 @@
 
 @section('content')
     
-    <div class="wrapper">
-    <div>
-    @foreach(range(1, 4) as $i)
-        <h2>{{ __('herotitles.herotitle'.$i) }}</h2>
-        <p>{{ __('herotexts.herotext'.$i) }}</p>
-    @endforeach
-</div>
-<div>
-            <a href="{{ __('buttons.outer_button.url') }}" class="outer-button" target="{{ __('buttons.outer_button.target') }}">{{ __('buttons.outer_button.text') }}</a>
+<div class="wrapper">
+    <div style="text-align:center;">
+        <h1>{!! trans('buttons.content.title') !!}</h1>
+        @foreach(__('buttons.content.text') as $lyrics)
+            <p style="font-size:25px;">{{ $lyrics['lyrics'] }}</p>
             <br>
-            <a href="{{ __('buttons.inner_button.url') }}" class="inner-button" target="{{ __('buttons.inner_button.target') }}">{{ __('buttons.inner_button.text') }}</a>
-        </div>
-    </div> 
+        @endforeach
+    </div>
+    <div>
+        @foreach(__('buttons.content.buttons') as $button)
+            <a style="display:flex;justify-content:center;font-size:25px;color:orange;text-decoration:none;" href="{{ $button['url'] }}" target="{{ $button['target'] }}" class="{{ $button['class'] }}">{{ $button['text'] }}</a>
+        @endforeach
+   </div>
+</div> 
 
 @endsection
 
