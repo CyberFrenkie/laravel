@@ -21,7 +21,7 @@ return [
         ],
     ],
 
-    'contentSca' => [
+    'content2' => [
         'title' => 'A Scalable Framework',
 
         'lead' => [
@@ -47,6 +47,11 @@ return [
     ], 
 
     // Second HW
+
+    'content3' => [
+        'title' => 'Lorem Ipsum',
+        'lead' => '<span class="text-red">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#" class="text-link">Excepteur sint</a> occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    ],
 
     'buttons' => [
         'button1' => [
