@@ -15,8 +15,8 @@
             <p class="main-lead">{{ $lead['text'] }}</p>
         @endforeach
 
-        <h3>{{ __('sofi.contentSca.title') }}</h3>
-        @foreach( __('sofi.contentSca.lead') as $lead )
+        <h3>{{ __('sofi.content2.title') }}</h3>
+        @foreach( __('sofi.content2.lead') as $lead )
             <p class="main-lead">{{ $lead['text'] }}</p>
         @endforeach
 
@@ -32,6 +32,9 @@
         <br>
 
         <!-- Second HW -->
+
+        <h3>{{ __('sofi.content3.title') }}</h3>
+        <p>{!! __('sofi.content3.lead') !!}</p>
 
         @foreach( __('sofi.buttons') as $btn )
             <a href="{{ $btn['url'] }}" class="{{ $btn['class'] }}">
