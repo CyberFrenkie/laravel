@@ -18,7 +18,7 @@
   height: auto;
   width: 100%;
   margin-bottom: 50px;
-  background-color: #333333;
+  background: linear-gradient(to right, #333, #333 50%, #ffa31a 75%);
 }
 .nav-section .nav-box {
   height: 80px;
@@ -36,8 +36,7 @@
 }
 .nav-section .nav-box .navbar-toggler {
   border-radius: 1px;
-  border: 0.1px solid white;
-  color: white;
+  border: 0.1px solid #333;
 }
 .nav-section .nav-box .nav-container {
   flex-grow: 0;
