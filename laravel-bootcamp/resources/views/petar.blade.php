@@ -20,11 +20,11 @@
 <!-- 3rd Homework -->
 <div class="pre-header">
     <!-- dodao sam contact_tel -->
-    <a href="{{ __('navbar.pre-headerContact.contact_tel.url') }}" class="{{ __('navbar.pre-headerContact.contact_tel.type') }}">{{ __('navbar.pre-headerContact.contact_tel.text') }}</a>
+    <a href="{{ __('navbar.pre-headerContact.contact_tel.url') }}" class="{{ __('navbar.pre-headerContact.contact_tel.type') }} phone">{{ __('navbar.pre-headerContact.contact_tel.text') }}</a>
     <!-- dodao sam contact_mail -->
-    <a href="{{ __('navbar.pre-headerContact.contact_mail.url') }}" class="{{ __('navbar.pre-headerContact.contact_mail.type') }}">{{ __('navbar.pre-headerContact.contact_mail.text') }}</a>
+    <a href="{{ __('navbar.pre-headerContact.contact_mail.url') }}" class="{{ __('navbar.pre-headerContact.contact_mail.type') }} mail">{{ __('navbar.pre-headerContact.contact_mail.text') }}</a>
 </div>
-<header>
+<header class="header">
     <div class="nav">
         <div class="logo">
             <img src="#" alt="PlaceHolder">
