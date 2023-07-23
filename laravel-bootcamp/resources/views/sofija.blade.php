@@ -14,13 +14,22 @@
                 </button>
                 <div class="collapse navbar-collapse nav-container" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        @foreach( __('sofi.navButtons') as $btn )
-                            <li class="{{ $btn['class'] }}">
-                                <a href="{{ $btn['button']['url'] }}" class="{{ $btn['button']['class'] }}">
-                                    {{ $btn['button']['text'] }}
+                        @php
+                            $items = __('sofi.navButtons');
+                            $totalItems = count($items);
+                        @endphp
+
+                        @for ($x = 1; $x <= $totalItems; $x++)
+                            @php
+                                $item = $items["listItem$x"];
+                            @endphp
+
+                            <li class="{{ $item['class'] }}">
+                                <a href="{{ $item['button']['url'] }}" class="{{ $item['button']['class'] }}">
+                                    {{ $item['button']['text'] }}
                                 </a>
                             </li>
-                        @endforeach
+                        @endfor
                     </ul>
                 </div>
             </div>
