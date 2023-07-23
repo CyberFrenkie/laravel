@@ -14,8 +14,8 @@ return[
             'textValue' => [
 
                 'url' => 'youtube.com',
-                'classLi' => 'nav-item',
-                'classA' => 'nav-link',
+                'classLi' => 'nav-item listitem',
+                'classA' => 'nav-link listlink',
 
             ],
 

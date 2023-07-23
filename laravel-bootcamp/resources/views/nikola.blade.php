@@ -8,7 +8,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 list">
         @foreach( trans('nikola_nav.value.navBtn.btn') as $btn)
         <li class="{{ __('nikola_nav.value.navBtn.textValue.classLi') }}">
             <a href="{{ __('nikola_nav.value.navBtn.textValue.url') }}" class="{{ __('nikola_nav.value.navBtn.textValue.classA') }}">
