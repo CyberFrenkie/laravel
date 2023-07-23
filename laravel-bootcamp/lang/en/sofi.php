@@ -44,7 +44,6 @@ return [
                 'text' => 'Services',
             ],
         ],
-
     ],
 
     // First HW
