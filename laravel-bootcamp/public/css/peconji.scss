@@ -1,0 +1,44 @@
+.pre-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    .mail,.phone {
+        color: rgba(255, 149, 100, 0.812);
+        font-size: 20px;
+        text-decoration: none;
+        transition: .3s;
+
+        &:hover {
+            color: aquamarine;
+        }
+    }
+}
+
+.header {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.153);
+    width: 100%;
+    height: 75px;
+    .nav{
+
+        .logo {
+            position: relative;
+            display: flex;
+            justify-content: left;
+        }
+        .button {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            color: coral;
+            font-size: 22px;
+            text-decoration: none;
+            transition: .3s;
+
+            &:hover {
+                color: orange;
+            }
+        }
+    }
+}
