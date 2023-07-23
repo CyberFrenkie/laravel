@@ -2,6 +2,51 @@
 
 return [
 
+    // Third HW
+
+    'navButtons' => [
+        'listItem1' => [
+            'class' => 'nav-item',
+            
+            'button' => [
+                'url' => '#',
+                'class' => 'button',
+                'text' => 'Home',
+            ],
+        ],
+
+        'listItem2' => [
+            'class' => 'nav-item',
+            
+            'button' => [
+                'url' => '#',
+                'class' => 'button',
+                'text' => 'About us',
+            ],
+        ],
+
+        'listItem3' => [
+            'class' => 'nav-item',
+            
+            'button' => [
+                'url' => '#',
+                'class' => 'button',
+                'text' => 'Contact us',
+            ],
+        ],
+
+        'listItem4' => [
+            'class' => 'nav-item',
+            
+            'button' => [
+                'url' => '#',
+                'class' => 'button',
+                'text' => 'Services',
+            ],
+        ],
+
+    ],
+
     // First HW
 
     'mainTitle' => 'Why Laravel?',
