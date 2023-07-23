@@ -1,3 +1,56 @@
+/* Third HW */
+.nav-section {
+  height: auto;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #333333;
+}
+.nav-section .nav-box {
+  height: 80px;
+  width: 1200px;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+@media only screen and (max-width: 768px) {
+  .nav-section .nav-box {
+    padding: 0 20px;
+  }
+}
+.nav-section .nav-box .navbar-toggler {
+  border-radius: 1px;
+  border: 0.1px solid white;
+  color: white;
+}
+.nav-section .nav-box .nav-container {
+  flex-grow: 0;
+}
+.nav-section .nav-box .nav-container .navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav-section .nav-box .nav-container .navbar-nav .nav-item {
+  float: left;
+}
+.nav-section .nav-box .nav-container .navbar-nav .nav-item .button {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1000px) {
+  .nav-section .nav-box .nav-container .navbar-nav .nav-item .button {
+    background: #111;
+    text-align: center;
+    margin: 0;
+  }
+}
+
 .wrapper {
   height: 90vh;
 }
