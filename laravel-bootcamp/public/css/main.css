@@ -1,3 +1,16 @@
+ul:hover li {
+  filter: blur(2px);
+}
+
+ul li:hover {
+  filter: blur(0px);
+}
+
+a:hover:not(.navbar-brand) {
+  background: linear-gradient(to right, #ff00fa 0%, #0ff 25%, #ff3a58 50%, #ff3674 75%, #8f9bff 100%);
+  -webkit-background-clip: text;
+}
+
 /* Third HW */
 .nav-section {
   height: auto;
