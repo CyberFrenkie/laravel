@@ -3,11 +3,12 @@
     display: flex;
     justify-content: space-between;
 
-    .mail,.phone {
+    .mail,
+    .phone {
         color: rgba(255, 149, 100, 0.812);
         font-size: 20px;
         text-decoration: none;
-        transition: .3s;
+        transition: 0.3s;
 
         &:hover {
             color: aquamarine;
@@ -20,8 +21,7 @@
     background-color: rgba(0, 0, 0, 0.153);
     width: 100%;
     height: 75px;
-    .nav{
-
+    .nav {
         .logo {
             position: relative;
             display: flex;
@@ -34,7 +34,7 @@
             color: coral;
             font-size: 22px;
             text-decoration: none;
-            transition: .3s;
+            transition: 0.3s;
 
             &:hover {
                 color: orange;

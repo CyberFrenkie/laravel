@@ -19,7 +19,7 @@
                 <a href="{{ $item['url'] }}" class="{{ $item['class'] }}">{{ $item['text'] }}</a>
             @endforeach
         </div>
-    </div>
+    </div> 
 </header>
 
 @endsection

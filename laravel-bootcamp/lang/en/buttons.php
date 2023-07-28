@@ -36,6 +36,6 @@ return [
             'text' => 'Locations',
             'url' => '#',
             'class' => 'button locations-button',
-        ],
+        ], 
     ],    
 ];
