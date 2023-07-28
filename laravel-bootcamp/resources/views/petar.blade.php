@@ -2,25 +2,28 @@
 
 @section('content')
     
-<div class="wrapper">
-    <!-- 3rd Homework -->
-    <div class="pre-header">
+<body>
+<div class="pre-header">
         <!-- dodao sam contact_tel -->
-        <a href="{{ __('buttons.pre-headerContact.contact_tel.url') }}" class="{{ __('buttons.pre-headerContact.contact_tel.type') }} phone">{{ __('buttons.pre-headerContact.contact_tel.text') }}</a>
+        <a href="{{ __('navbar.pre-headerContact.contact_tel.url') }}" class="{{ __('navbar.pre-headerContact.contact_tel.type') }} mail">{{ __('navbar.pre-headerContact.contact_tel.text') }}</a>
         <!-- dodao sam contact_mail -->
-        <a href="{{ __('buttons.pre-headerContact.contact_mail.url') }}" class="{{ __('buttons.pre-headerContact.contact_mail.type') }} mail">{{ __('buttons.pre-headerContact.contact_mail.text') }}</a>
+        <a href="{{ __('navbar.pre-headerContact.contact_mail.url') }}" class="{{ __('navbar.pre-headerContact.contact_mail.type') }} mail">{{ __('navbar.pre-headerContact.contact_mail.text') }}</a>
     </div>
-    <header class="header">
+    <header>
         <div class="nav">
             <div class="logo">
-                <img src="#" alt="PlaceHolder">
+                <a href="#">
+                <img src="img/logo-removebg-preview.png" alt="logo" class="logo-img">
+                </a>
             </div>
-            @foreach ( __('buttons.items') as $item)
+            <div class="nav_buttons">
+                @foreach ( __('navbar.items') as $item)
                 <a href="{{ $item['url'] }}" class="{{ $item['class'] }}">{{ $item['text'] }}</a>
-            @endforeach
+                @endforeach
+            </div>
         </div>
-    </div>
-</header>
+    </header>
+</body>
 
 @endsection
 
