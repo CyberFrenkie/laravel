@@ -10,8 +10,23 @@ return [
         'content' => 'U folderu views svako ima stranicu sa svojim imenom! ',
 
         'return' => [
-            'name' => 'Home page',
-            'url' => '/',
+            'list' => [ 
+                'class' => 'list-item-link',
+
+                'btn' => [
+                    
+                    [
+                        'name' => 'Home page',                   
+                        'url' => '/', 
+                    ],
+                    
+                    
+                ], 
+                
+                    
+            ],
+            
+            
         ],
         'persons' => [
             [

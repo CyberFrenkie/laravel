@@ -65,13 +65,68 @@
   }
 }
 
+.pre-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.pre-header .mail, .pre-header .phone {
+  color: rgba(255, 149, 100, 0.812);
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.pre-header .mail:hover, .pre-header .phone:hover {
+  color: aquamarine;
+}
+
+.header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.153);
+  width: 100%;
+  height: 75px;
+}
+.header .nav .logo {
+  position: relative;
+  display: flex;
+  justify-content: left;
+}
+.header .nav .button {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: coral;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.header .nav .button:hover {
+  color: orange;
+}
+
+.layout-main-wrap {
+  min-height: 90vh;
+}
+
 .wrapper {
-  height: 90vh;
+  height: 100%;
 }
 
 .heading {
   padding: 20px;
   font-size: 30px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.4784313725);
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+.footer .list-item-link {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */

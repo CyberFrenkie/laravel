@@ -9,7 +9,7 @@ return [
             'class' => 'nav-item',
             
             'button' => [
-                'url' => '#',
+                'url' => '/',
                 'class' => 'button',
                 'text' => 'Home',
             ],
