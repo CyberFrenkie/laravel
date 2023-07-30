@@ -13,10 +13,28 @@
     <title>Document</title>
 </head>
 <body class="container-fluid  text-center">
-    @yield('content')
+    <div class="layout-main-wrap">
+         @yield('content')
+    
+   
 
 
-    <a class="" href="{{ __('home.page.return.url') }}">{{ __('home.page.return.name') }}</a>
+   </div>
+
+    <div class="footer">
+
+
+        @foreach ( __('home.page.return.list.btn') as $item)
+                
+            <a class="{{ __('home.page.return.list.class') }}" href="{{ $item['url'] }}">{{ $item['name'] }}</a>
+        
+            
+        @endforeach
+
+    </div>
+
+
+    
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

@@ -2,11 +2,26 @@
 @import "sofija.scss";
 @import "peconji.scss";
 
+.layout-main-wrap{
+    min-height: 90vh;
+}
 .wrapper{
-    height: 90vh;
+    height: 100%;
 }
 .heading{
     padding: 20px;
     font-size: 30px;
 
+}
+
+.footer{
+    background-color: #0000007a;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    .list-item-link{
+        color: #ffff;
+        font-size: 40px;
+        text-decoration: none;
+    }
 }
